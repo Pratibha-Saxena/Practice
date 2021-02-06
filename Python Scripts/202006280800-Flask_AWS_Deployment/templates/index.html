@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>
+			Prediction Web Page Trial
+		</title>
+	</head>
+	<body>
+		<h2>
+			Predict profit on the basis of RND and MKT
+		</h2>
+		
+		<form action="/predict" method="POST"><br/><br/>
+			Amount Spent in Research and Development: <input name="RND" id="RND" type="text"/><br/><br/>
+			Amount Spent in Marketing: <input name="MKT" id="MKT" type="text"/><br/><br/>
+			<input type="submit"/>
+		</form>
+		{{pred}}
+	</body>
+</html>
